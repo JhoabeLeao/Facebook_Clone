@@ -93,3 +93,18 @@ body{
     font-size: 14px;
     padding: 10px;
 }
+
+.feed{
+    background-color: white;
+}
+
+.feedForm{
+    padding: 10px;
+}
+
+.feedForm img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
