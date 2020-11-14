@@ -2,26 +2,21 @@ import './App.css';
 import Header from './Header';
 import Stories from './Stories';
 import profile from './resources/profile.jpg';
-import { AiFillVideoCamera } from "react-icons/ai";
+import FeedForm from './FeedForm';
+import FeedPost from './FeedPost';
+import { AiFillVideoCamera, AiOutlineFileImage, AiOutlineMeh} from "react-icons/ai";
 
 function App() {
   return (
     <div className="App">
         <Header />
         <Stories /> 
-        <div className="feed">
-          <div className="feedForm">
-            <img src={profile} />
-            <input type="text" placeholder="No que você está pensando?"/>
-          </div>
-          <div className="feedIcons">
-            <div className="video">
-              <AiFillVideoCamera />
-              <span>Vídeo ao vivo</span>
-            </div>
-
-          </div>
-        </div>  
+        <FeedForm />
+        <FeedPost nome="Jhoabe Leão" conteudo="Show Zombies Terminators!" horario="20:00"/>
+        <FeedPost nome="Jhoabe Leão" conteudo="Show Zombies Terminators!" horario="20:00"/>
+        <FeedPost nome="Jhoabe Leão" conteudo="Show Zombies Terminators!" horario="20:00"/>
+        <FeedPost nome="Jhoabe Leão" conteudo="Show Zombies Terminators!" horario="20:00"/>
+            
     </div>
   );
 }

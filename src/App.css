@@ -43,6 +43,7 @@ body{
 .menu-fb {
     cursor: pointer;
     margin-left: 25px;
+    margin-top: 7px;
     position: relative;
     top: 8px 10px;
 }
@@ -84,8 +85,8 @@ body{
     margin-right: 1%;
     padding-top: 25%;
     background-position: center;
-    background-color: rgb(58, 58, 58);
     background-size: cover;
+    background-color: rgb(58, 58, 58);
     border-radius: 10px;
 }
 
@@ -93,10 +94,7 @@ body{
     color: white;
     font-size: 14px;
     padding: 10px;
-
 }
-
-
 
 .feed{
     background-color: white;
@@ -106,6 +104,7 @@ body{
 .feedForm{
     padding: 10px;
     border-bottom: 1px solid #ccc;
+    /*height: 75px;*/
 }
 
 .feedForm img{
@@ -117,7 +116,7 @@ body{
 
 .feedForm input{
     position: relative;
-    top: -8px;
+    top: -14px;
     margin-left: 2%;
     width: calc(98% - 40px);
     height: 50px;
@@ -130,4 +129,72 @@ body{
 
 .feedForm input:focus{
     outline: 0;
+}
+
+.feedIcons{
+    padding: 20px 40px;
+    display: flex;
+}
+
+.iconSingle{
+    width: 33.3%;
+    text-align: center;
+}
+
+.iconSingle svg{
+    vertical-align: middle;
+    font-size: 25px;
+    color: #f02849;
+}
+
+.iconSingle.img svg{
+    color: #45bd62;
+}
+
+.iconSingle.emoji svg{
+    color: yellow;
+}
+
+.iconSingle span{
+    font-weight: bold;
+    color: gray;
+    margin: 0 10px;
+}
+
+.feedPostSingle{
+    margin: 20px 0;
+    background-color: white;
+}
+
+.feedPost_profile{
+    padding: 10px;
+}
+
+.feedPost_profile h3{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 10px;
+}
+
+.feedPost_profile h3 > span{
+    font-weight:  normal;
+    font-size: 15px;
+} 
+
+.feedPost_profile img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.feedPost_content p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.feedPost_content img{
+    width: 100%;
+    display: block;    
 }
