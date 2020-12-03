@@ -15,8 +15,7 @@ function App() {
         <FeedPost nome="Jhoabe Leão" conteudo="Show Zombies Terminators!" horario="20:00"/>
         <FeedPost nome="Jhoabe Leão" conteudo="Show Zombies Terminators!" horario="20:00"/>
         <FeedPost nome="Jhoabe Leão" conteudo="Show Zombies Terminators!" horario="20:00"/>
-        <FeedPost nome="Jhoabe Leão" conteudo="Show Zombies Terminators!" horario="20:00"/>
-            
+        <FeedPost nome="Jhoabe Leão" conteudo="Show Zombies Terminators!" horario="20:00"/>            
     </div>
   );
 }
